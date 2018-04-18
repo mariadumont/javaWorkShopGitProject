@@ -60,37 +60,7 @@ public class Client {
 	// Start of user code (user defined methods for Client)
 
 	// End of user code
-	/**
-	 * Returns village.
-	 * @return village 
-	 */
-	public String getVillage() {
-		return this.addressClient.getVillage();
-	}
-
-	/**
-	 * Sets a value to attribute village. 
-	 * @param newVillage 
-	 */
-	public void setVillage(String newVillage) {
-		this.addressClient.setVillage(newVillage);
-	}
-
-	/**
-	 * Returns country.
-	 * @return country 
-	 */
-	public String getCountry() {
-		return this.addressClient.getCountry();
-	}
-
-	/**
-	 * Sets a value to attribute country. 
-	 * @param newCountry 
-	 */
-	public void setCountry(String newCountry) {
-		this.addressClient.setCountry(newCountry);
-	}
+	
 
 	/**
 	 * Returns identifier.
@@ -132,26 +102,8 @@ public class Client {
 		this.name = newName;
 	}
 
-	/**
-	 * Returns streetNumber.
-	 * @return streetNumber 
-	 */
-	public int getStreetNumber() {
-		return this.addressClient.getStreetNumber();
-	}
-
-	/**
-	 * Sets a value to attribute streetNumber. 
-	 * @param newStreetNumber 
-	 */
-	public void setStreetNumber(int newStreetNumber) {
-		this.addressClient.setStreetNumber(newStreetNumber);
-	}
-
-	/**
-	 * Returns surname.
-	 * @return surname 
-	 */
+	
+	
 	public String getSurname() {
 		return this.surname;
 	}
@@ -180,36 +132,6 @@ public class Client {
 		this.dni = newDni;
 	}
 
-	/**
-	 * Returns streetName.
-	 * @return streetName 
-	 */
-	public String getStreetName() {
-		return this.addressClient.getStreetName();
-	}
-
-	/**
-	 * Sets a value to attribute streetName. 
-	 * @param newStreetName 
-	 */
-	public void setStreetName(String newStreetName) {
-		this.addressClient.setStreetName(newStreetName);
-	}
-
-	/**
-	 * Returns province.
-	 * @return province 
-	 */
-	public String getProvince() {
-		return this.addressClient.getProvince();
-	}
-
-	/**
-	 * Sets a value to attribute province. 
-	 * @param newProvince 
-	 */
-	public void setProvince(String newProvince) {
-		this.addressClient.setProvince(newProvince);
-	}
+	
 
 }

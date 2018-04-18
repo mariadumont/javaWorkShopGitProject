@@ -21,11 +21,6 @@ public class Product {
 	private int identifier = 0;
 
 	/**
-	 * Description of the property suplierName.
-	 */
-	private String suplierName = "";
-
-	/**
 	 * Description of the property price.
 	 */
 	private double price = 0D;
@@ -40,10 +35,7 @@ public class Product {
 	 */
 	private String description = "";
 
-	/**
-	 * Description of the property suplierID.
-	 */
-	private String suplierID = "";
+	private ProductSuplier suplierProduct = new ProductSuplier("", "");
 
 	/**
 	 * Description of the property stock.
@@ -82,21 +74,7 @@ public class Product {
 		this.identifier = newIdentifier;
 	}
 
-	/**
-	 * Returns suplierName.
-	 * @return suplierName 
-	 */
-	public String getSuplierName() {
-		return this.suplierName;
-	}
-
-	/**
-	 * Sets a value to attribute suplierName. 
-	 * @param newSuplierName 
-	 */
-	public void setSuplierName(String newSuplierName) {
-		this.suplierName = newSuplierName;
-	}
+	
 
 	/**
 	 * Returns price.
@@ -138,21 +116,6 @@ public class Product {
 		this.description = newDescription;
 	}
 
-	/**
-	 * Returns suplierID.
-	 * @return suplierID 
-	 */
-	public String getSuplierID() {
-		return this.suplierID;
-	}
-
-	/**
-	 * Sets a value to attribute suplierID. 
-	 * @param newSuplierID 
-	 */
-	public void setSuplierID(String newSuplierID) {
-		this.suplierID = newSuplierID;
-	}
 
 	/**
 	 * Returns stock.
