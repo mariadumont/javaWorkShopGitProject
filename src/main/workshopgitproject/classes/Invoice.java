@@ -3,6 +3,9 @@
  *******************************************************************************/
 package main.workshopgitproject.classes;
 
+import java.util.Date;
+import java.util.HashSet;
+
 // Start of user code (user defined imports)
 
 // End of user code
@@ -26,7 +29,7 @@ public class Invoice {
 	/**
 	 * Description of the property datePurchase.
 	 */
-	private EDate datePurchase = null;
+	private Date datePurchase = null;
 
 	/**
 	 * Description of the property totalAmount.
@@ -95,7 +98,7 @@ public class Invoice {
 	 * Returns datePurchase.
 	 * @return datePurchase 
 	 */
-	public EDate getDatePurchase() {
+	public Date getDatePurchase() {
 		return this.datePurchase;
 	}
 
@@ -103,7 +106,7 @@ public class Invoice {
 	 * Sets a value to attribute datePurchase. 
 	 * @param newDatePurchase 
 	 */
-	public void setDatePurchase(EDate newDatePurchase) {
+	public void setDatePurchase(Date newDatePurchase) {
 		this.datePurchase = newDatePurchase;
 	}
 

@@ -3,6 +3,8 @@
  *******************************************************************************/
 package main.workshopgitproject.classes;
 
+import java.util.HashSet;
+
 // Start of user code (user defined imports)
 
 // End of user code
@@ -13,16 +15,6 @@ package main.workshopgitproject.classes;
  * @author alu20482156n
  */
 public class Client {
-	/**
-	 * Description of the property village.
-	 */
-	private String village = "";
-
-	/**
-	 * Description of the property country.
-	 */
-	private String country = "";
-
 	/**
 	 * Description of the property identifier.
 	 */
@@ -39,11 +31,6 @@ public class Client {
 	private String name = "";
 
 	/**
-	 * Description of the property streetNumber.
-	 */
-	private int streetNumber = 0;
-
-	/**
 	 * Description of the property surname.
 	 */
 	private String surname = "";
@@ -53,15 +40,9 @@ public class Client {
 	 */
 	private String dni = "";
 
-	/**
-	 * Description of the property streetName.
-	 */
-	private String streetName = "";
+	private ClientAddress addressClient = new ClientAddress("", "", 0, "", "");
 
-	/**
-	 * Description of the property province.
-	 */
-	private String province = "";
+	
 
 	// Start of user code (user defined attributes for Client)
 
@@ -84,7 +65,7 @@ public class Client {
 	 * @return village 
 	 */
 	public String getVillage() {
-		return this.village;
+		return this.addressClient.getVillage();
 	}
 
 	/**
@@ -92,7 +73,7 @@ public class Client {
 	 * @param newVillage 
 	 */
 	public void setVillage(String newVillage) {
-		this.village = newVillage;
+		this.addressClient.setVillage(newVillage);
 	}
 
 	/**
@@ -100,7 +81,7 @@ public class Client {
 	 * @return country 
 	 */
 	public String getCountry() {
-		return this.country;
+		return this.addressClient.getCountry();
 	}
 
 	/**
@@ -108,7 +89,7 @@ public class Client {
 	 * @param newCountry 
 	 */
 	public void setCountry(String newCountry) {
-		this.country = newCountry;
+		this.addressClient.setCountry(newCountry);
 	}
 
 	/**
@@ -156,7 +137,7 @@ public class Client {
 	 * @return streetNumber 
 	 */
 	public int getStreetNumber() {
-		return this.streetNumber;
+		return this.addressClient.getStreetNumber();
 	}
 
 	/**
@@ -164,7 +145,7 @@ public class Client {
 	 * @param newStreetNumber 
 	 */
 	public void setStreetNumber(int newStreetNumber) {
-		this.streetNumber = newStreetNumber;
+		this.addressClient.setStreetNumber(newStreetNumber);
 	}
 
 	/**
@@ -204,7 +185,7 @@ public class Client {
 	 * @return streetName 
 	 */
 	public String getStreetName() {
-		return this.streetName;
+		return this.addressClient.getStreetName();
 	}
 
 	/**
@@ -212,7 +193,7 @@ public class Client {
 	 * @param newStreetName 
 	 */
 	public void setStreetName(String newStreetName) {
-		this.streetName = newStreetName;
+		this.addressClient.setStreetName(newStreetName);
 	}
 
 	/**
@@ -220,7 +201,7 @@ public class Client {
 	 * @return province 
 	 */
 	public String getProvince() {
-		return this.province;
+		return this.addressClient.getProvince();
 	}
 
 	/**
@@ -228,7 +209,7 @@ public class Client {
 	 * @param newProvince 
 	 */
 	public void setProvince(String newProvince) {
-		this.province = newProvince;
+		this.addressClient.setProvince(newProvince);
 	}
 
 }
