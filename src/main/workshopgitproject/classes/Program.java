@@ -45,7 +45,7 @@ public class Program {
 	/**
 	 * Description of the method calcularImporteTotal.
 	 */
-	public void calcularImporteTotal() {
+	public void calculateTotalAmount() {
 		// Start of user code for method calcularImporteTotal
 		// End of user code
 	}
@@ -53,9 +53,21 @@ public class Program {
 	/**
 	 * Description of the method Main.
 	 */
-	public void Main() {
+	public static void Main(String [] args) {
 		// Start of user code for method Main
 		// End of user code
+		showOptions();
+
+	}
+
+	/**
+	 * 
+	 */
+	private static void showOptions() {
+		System.out.println("Welcome to our application");
+		System.out.println("Create invoiceLine--->1");
+		System.out.println("Create invoice------->2");
+		System.out.println("Quit----------------->3");
 	}
 
 	// Start of user code (user defined methods for Program)
