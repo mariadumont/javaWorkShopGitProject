@@ -149,5 +149,13 @@ public class Invoice {
 	public HashSet<InvoiceLine> getInvoiceLines() {
 		return this.invoiceLines;
 	}
+	
+	private void calculateTotalInvoiceAmount() {
+		double amount=0;
+		for(InvoiceLine ivl  : invoiceLines) {
+			amount+=ivl.getInvoiceLineAmount();
+		}
+		this.totalAmount=amount;
+	}
 
 }

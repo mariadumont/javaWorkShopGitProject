@@ -41,6 +41,8 @@ public class TestInvoiceLine {
 	public void testInvoiceAmoung() {
 		// Start of user code for method testInvoiceAmoung
 		// End of user code
+		
+	
 	}
 
 	/**
