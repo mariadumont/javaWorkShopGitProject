@@ -12,7 +12,7 @@ package main.workshopgitproject.classes;
  * 
  * @author alu20482156n
  */
-private class InvoiceLine {
+public class InvoiceLine {
 	/**
 	 * Description of the property invoices.
 	 */

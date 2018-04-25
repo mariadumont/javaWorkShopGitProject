@@ -16,6 +16,7 @@ public class TestInvoiceLine {
 	// Start of user code (user defined attributes for TestInvoiceLine)
 
 	// End of user code
+	//Vamos a calcular el importe 
 
 	/**
 	 * The constructor.
