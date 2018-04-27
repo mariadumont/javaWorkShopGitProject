@@ -12,7 +12,11 @@ package main.workshopgitproject.classes;
  * 
  * @author alu20482156n
  */
+<<<<<<< HEAD
 public class InvoiceLine {
+=======
+class InvoiceLine {
+>>>>>>> refs/heads/Refactor_Classes_Client_And_Product
 	/**
 	 * Description of the property invoices.
 	 */
@@ -122,7 +126,7 @@ public class InvoiceLine {
 	 * Returns invoiceLineAmount.
 	 * @return invoiceLineAmount 
 	 */
-	public double getInvoiceLineAmount() {
+	public InvoiceLine getInvoiceLineAmount() {
 		return this.invoiceLineAmount;
 	}
 

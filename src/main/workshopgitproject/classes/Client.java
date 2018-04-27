@@ -16,16 +16,6 @@ import java.util.HashSet;
  */
 public class Client {
 	/**
-	 * Description of the property village.
-	 */
-	private String village = "";
-
-	/**
-	 * Description of the property country.
-	 */
-	private String country = "";
-
-	/**
 	 * Description of the property identifier.
 	 */
 	private int identifier = 0;
@@ -41,11 +31,6 @@ public class Client {
 	private String name = "";
 
 	/**
-	 * Description of the property streetNumber.
-	 */
-	private int streetNumber = 0;
-
-	/**
 	 * Description of the property surname.
 	 */
 	private String surname = "";
@@ -55,15 +40,9 @@ public class Client {
 	 */
 	private String dni = "";
 
-	/**
-	 * Description of the property streetName.
-	 */
-	private String streetName = "";
+	private ClientAddress addressClient = new ClientAddress("", "", 0, "", "");
 
-	/**
-	 * Description of the property province.
-	 */
-	private String province = "";
+	
 
 	// Start of user code (user defined attributes for Client)
 
@@ -81,37 +60,7 @@ public class Client {
 	// Start of user code (user defined methods for Client)
 
 	// End of user code
-	/**
-	 * Returns village.
-	 * @return village 
-	 */
-	public String getVillage() {
-		return this.village;
-	}
-
-	/**
-	 * Sets a value to attribute village. 
-	 * @param newVillage 
-	 */
-	public void setVillage(String newVillage) {
-		this.village = newVillage;
-	}
-
-	/**
-	 * Returns country.
-	 * @return country 
-	 */
-	public String getCountry() {
-		return this.country;
-	}
-
-	/**
-	 * Sets a value to attribute country. 
-	 * @param newCountry 
-	 */
-	public void setCountry(String newCountry) {
-		this.country = newCountry;
-	}
+	
 
 	/**
 	 * Returns identifier.
@@ -153,26 +102,8 @@ public class Client {
 		this.name = newName;
 	}
 
-	/**
-	 * Returns streetNumber.
-	 * @return streetNumber 
-	 */
-	public int getStreetNumber() {
-		return this.streetNumber;
-	}
-
-	/**
-	 * Sets a value to attribute streetNumber. 
-	 * @param newStreetNumber 
-	 */
-	public void setStreetNumber(int newStreetNumber) {
-		this.streetNumber = newStreetNumber;
-	}
-
-	/**
-	 * Returns surname.
-	 * @return surname 
-	 */
+	
+	
 	public String getSurname() {
 		return this.surname;
 	}
@@ -201,36 +132,6 @@ public class Client {
 		this.dni = newDni;
 	}
 
-	/**
-	 * Returns streetName.
-	 * @return streetName 
-	 */
-	public String getStreetName() {
-		return this.streetName;
-	}
-
-	/**
-	 * Sets a value to attribute streetName. 
-	 * @param newStreetName 
-	 */
-	public void setStreetName(String newStreetName) {
-		this.streetName = newStreetName;
-	}
-
-	/**
-	 * Returns province.
-	 * @return province 
-	 */
-	public String getProvince() {
-		return this.province;
-	}
-
-	/**
-	 * Sets a value to attribute province. 
-	 * @param newProvince 
-	 */
-	public void setProvince(String newProvince) {
-		this.province = newProvince;
-	}
+	
 
 }
