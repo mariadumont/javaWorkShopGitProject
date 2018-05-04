@@ -132,6 +132,10 @@ public class Client {
 		this.dni = newDni;
 	}
 
+	public void shutDown() {
+		System.out.println("Thanks for using application!!!");
+	}
+
 	
 
 }
